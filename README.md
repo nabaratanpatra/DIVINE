@@ -38,9 +38,14 @@ YOU DON'T NEED NETWORK YOU CAN USE GPS(GLOBAL POSITIONING SYSTEM)
 WE DEVELOPED AN SIMPLE AND SOPHISITICATED APP SO THAT ANY ONE CAM USE 
 
 
-# SNAPSHOTS LANDING PAGE 
+# SNAPSHOTS LANDING PAGE / EXPLANATION 
 
-
+![alt text](https://github.com/nabaratanpatra/DIVINE/blob/main/Screensort/load1.jpeg?raw=true)
+![alt text](https://github.com/nabaratanpatra/DIVINE/blob/main/Screensort/load2.jpeg?raw=true)
+![alt text](https://github.com/nabaratanpatra/DIVINE/blob/main/Screensort/load3.jpeg?raw=true)
+![alt text](https://github.com/nabaratanpatra/DIVINE/blob/main/Screensort/load4.jpeg?raw=true)
+![alt text](https://github.com/nabaratanpatra/DIVINE/blob/main/Screensort/load5.jpeg?raw=true)
+![alt text](https://github.com/nabaratanpatra/DIVINE/blob/main/Screensort/load6.jpeg?raw=true)
 
 
 # SNAPSHOTS OF WORKING OF APP 
