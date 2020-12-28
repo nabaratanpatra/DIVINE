@@ -7,9 +7,16 @@ HACKNAGPUR PROJECT
   
 
 
-# YOUTUBE LINK  
+# YOUTUBE LINK    
 
-  
+https://www.youtube.com/watch?v=mptoHag0YEU    
+
+
+# PPT LINK   
+
+https://docs.google.com/presentation/d/1k1v1F7Ft7TX9NA1ggKFFN30UAaXkWGME/edit#slide=id.p1  
+
+
 
 # 🔨Languages and Tools🔨  
 
