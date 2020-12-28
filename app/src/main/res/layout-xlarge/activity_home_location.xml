@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:background="@drawable/a9"
+    >
+
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="723dp"
+        android:layout_height="139dp"
+        android:layout_marginHorizontal="125dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="RESIDENTIAL LOCATION"
+        android:textAlignment="center"
+        android:textColor="#DA1515"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        android:textIsSelectable="true"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/bt_picker"
+        android:layout_width="490dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/button_border"
+        android:padding="10dp"
+        android:text="Residential Location"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:id="@+id/text_view"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="145dp"/>
+</LinearLayout>

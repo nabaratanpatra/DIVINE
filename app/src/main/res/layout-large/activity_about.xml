@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="#ced4da">
+
+
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="DESIGNER"
+        android:textColor="#DA1515"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#CD000000"
+        android:textIsSelectable="true"
+        android:textSize="22sp" />
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:layout_width="400dp"
+        android:layout_marginTop="120dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:elegantTextHeight="true"
+            android:lineHeight="30dp"
+            android:padding="15dp"
+            android:text="DIVINE Team has designed an android application for HACKNAGPUR. \nTopic: OPEN INOVATION \nSAFETY HELP CARE."
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_2"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/circle_naba"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="340dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center_vertical"
+                android:text="        NABA RATAN PATRA"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/img_2"
+                app:layout_constraintTop_toBottomOf="@+id/text2"
+                tools:ignore="UnknownId" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ANDROID DEVELOPER"
+                android:textColor="#6014E6"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CYBER SECURITY"
+                android:textColor="#6014E6"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_3"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/circle_lalit"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text7" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="340dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center_vertical"
+                android:text="         P Lalit Kumar Reddy"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/img_3"
+                app:layout_constraintTop_toBottomOf="@+id/text7" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kotlin Developer"
+                android:textColor="#6014E6"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="2000dp"
+        android:layout_height="110dp"
+        android:id="@+id/bottom_navigation"
+        android:background="#7E7E7E"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

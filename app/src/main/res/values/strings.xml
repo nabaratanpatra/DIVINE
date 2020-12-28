@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">DIVINE</string>
+    <string name="close_friends">Best Friends</string>
+    <string name="closeFriends_text">Please select the Best friends from your Contactlist</string>
+    <string name="add_contact">+ Add Contact</string>
+</resources>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Description"
+    android:background="#ced4da">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:layout_marginBottom="70dp"
+        android:layout_width="800dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="1300dp"
+        android:layout_centerHorizontal="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:elegantTextHeight="true"
+                    android:text ="WORKING OF THIS APP:"
+                    android:fontFamily="@font/capriola"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#E91E63"
+                    android:textIsSelectable="true"
+                    android:textSize="60dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:elegantTextHeight="true"
+                    android:text ="\t\tThis application is fully secure and no privacy will be leaked from this app. This application has been designed with the knowledge of cyber security and blockchain. If your wellbeing are in danger this app can help you by connecting with your confided in contacts and giving them your present area and an instant message.
+\n\t\tThis app helps you whenever your safety is at risk by reaching out to your trusted contacts and providing them with your current location and a text message.
+\n\t\tAt the point when the auto alarm include is turned on, your area alongside a message will be consequently imparted to your believed contacts if your gadget is in going to bite the dust circumstance.
+\n\t\tThis application additionally alarms you when your battery is drained upto certain breaking point.
+\t⦁	Turn on/off AUTO ALERT to send your location along with a text, automatically when your battery reaches to a set limit.
+\n\t⦁	SMS ALERT:
+\n\tSend your present area alongside the additional subtleties IMMEDIATELY with a solitary tap to your confided in contacts.
+\n\t Note :- our application has two main functionality like when gps is on then it will send the gps location if your GPS is off then it will send your Internet Service Providers location(In range of 50 meter of your location).
+\n\t⦁	DEFAULT MESSAGES:
+\n\tSelect the message you need to share from the screen and this message will be shared alongside your area with.
+\n\t⦁	EMERGENCY CALL:
+\n\tCall the national emergency number at a single tap.
+\t⦁	Get your absolute best of wellbeing in crisis circumstances.
+\n\t⦁	Crisis BATTERY PERCENTAGE:
+\n\tSet the battery rate at which your area will be consequently imparted to your believed/crisis reaches you chose in 'DEST FRIENDS'.
+\n\t⦁	BATTERY CHARGE ALERT:
+ \n\tSet the battery rate at which you need to be informed while charging your gadget.\n\n\n\n"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#E91E63"
+                    android:textIsSelectable="true"
+                    android:textSize="60dp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="2000dp"
+        android:layout_height="200dp"
+        android:id="@+id/bottom_navigation"
+        android:background="#7E7E7E"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

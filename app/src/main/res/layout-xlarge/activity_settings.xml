@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings"
+    android:background="#ced4da">
+
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="SETTINGS"
+        android:textColor="#DA1515"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        android:textIsSelectable="true"
+        android:textSize="100sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:text="View Alert History"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_border"
+        android:layout_marginHorizontal="115dp"
+        android:padding="10dp"
+        android:elevation="30dp"
+        android:visibility="visible"
+        tools:visibility="visible"
+        android:id="@+id/bt_history" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp"
+        android:layout_centerHorizontal="true"
+        android:text="Residential Location"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_border"
+        android:padding="10dp"
+        android:elevation="30dp"
+        android:visibility="visible"
+        tools:visibility="visible"
+        android:id="@+id/bt_picker" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/text_view"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_marginTop="500dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:textSize="30sp" />-->
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="70dp"
+        app:cardElevation="20dp"
+        android:layout_width="700dp"
+        android:layout_marginTop="980dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Send auto alert when battery reaches:"
+            android:textIsSelectable="true"
+            android:textColor="#000000"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/progressBar"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="140dp"
+            android:text="0%"
+            android:textSize="50sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/seekBar"
+            android:layout_marginTop="230dp"
+            android:paddingHorizontal="15dp" />
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_centerVertical="true" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="2000dp"
+        android:layout_height="200dp"
+        android:id="@+id/bottom_navigation"
+        android:background="#7E7E7E"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
